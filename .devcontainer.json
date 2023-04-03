@@ -1,0 +1,13 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/python:3.9-bullseye",
+    "postCreateCommand": "python3 -m venv venv && . venv/bin/activate && pip3 install --user -r requirements.txt",
+    "postStartCommand": ". venv/bin/activate",
+    "customizations": {
+        "codespaces": {
+            "openFiles": [
+                "README.md",
+                "main.py"
+            ]
+        }
+    }
+}
