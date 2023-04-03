@@ -1,0 +1,5 @@
+coverage
+flask
+mypy
+pandas
+scrapy
